@@ -1,0 +1,51 @@
+/**
+ * CSS files with the .module.css suffix will be treated as CSS modules
+ * and scoped locally.
+ */
+
+.heroBanner {
+  background-image: url('/img/header.jpg'); /* place ton image dans /static/img/ */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  padding: 4rem 0;
+  text-align: center;
+  position: relative;
+  z-index: 0;
+}
+
+
+@media screen and (max-width: 996px) {
+  .heroBanner {
+    padding: 2rem;
+  }
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.headerContent {
+  display: flex;
+  align-items: center; /* centrage vertical */
+  justify-content: center; /* centrage horizontal global */
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.textContent {
+  flex: 1;
+  min-width: 300px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.heroImage {
+  max-width: 400px;
+  height: auto;
+  margin-left: 2rem;
+}
+
