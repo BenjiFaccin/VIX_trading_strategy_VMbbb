@@ -6,7 +6,7 @@ sidebar_position: 2
 
 To monitor the live behavior of the forward-tested VIX trading strategies, I built and deployed a **real-time analytics dashboard**, accessible under the **"ForwardTesting"** tab:
 
-👉 [View Dashboard Live](https://vix-trading-strategy.vercel.app/performances)
+👉 [View Dashboard Live](https://vix-trading-strategy-v-mbbb.vercel.app/performances)
 
 This dashboard is automatically updated **every 60 seconds**, providing near real-time visibility into trade activity, performance evolution, and operational health of the trading bot.
 
@@ -21,7 +21,6 @@ The top section gives a **global overview** of trading activity:
 - **Current win rate**
 - Daily bar charts of **entries vs. exits**
 - Execution rates for monitoring latency or market conditions
-
 
 ---
 
@@ -53,6 +52,25 @@ Two additional live metrics:
 - **Total Costs Over Time** (spread cost basis)
 - **Total Commissions** (based on Interactive Brokers real fees)
 
-These metrics are essential for computing net profitability and ensuring model assumptions align with reality.
+---
+
+### 📉 Exercised Legs Performance
+
+To track the **final realized return** of spreads that were **held to expiry**, the dashboard now includes detailed analysis of the long and short legs:
+
+#### 1. Cumulative Exercised Long & Short Leg Returns
+- Shows **cumulative return** over time for both long and short legs
+- Green = Long Leg returns
+- Red = Short Leg returns
+
+#### 2. Net Return Exercised Legs
+- Highlights **net payoff** per expiry cycle
+- Net = Long leg - Short leg payoff
+
+#### 3. Net Cumulative Return Exercised Legs
+- Total **cumulative profit** for exercised spreads over time
+- Serves as a benchmark of realized profitability post-expiry
 
 ---
+
+These metrics are essential for computing net profitability and ensuring model assumptions align with reality.
