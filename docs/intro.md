@@ -6,6 +6,7 @@ sidebar_position: 1
 
 Discover an automated algorithmic **Bear Put-spread Strategy** on the VIX index, executed through **Interactive Brokers** via a virtual machine.
 
+
 ---
 
 ## Overview
