@@ -16,4 +16,5 @@ Date,Option expiration date,Strike short put,Strike long put,DTE,Spread Cost,Com
 2025-07-24 16:31:16,2025-08-05,14.0,15.0,11,-134.84,0.0,1.16,1.16,Partial/Cancelled,15.16,1,1,-1.0,0.04,0.06,0.1,0.0,0.1,0.0,0.0,Selected_vix_put_spread_results_threshold_15-16_strike_14.0.xlsx,204.0,
 2025-07-24 17:25:31,2025-08-05,14.0,15.0,11,-134.84,0.0,1.16,1.16,Partial/Cancelled,15.01,1,1,-1.0,0.04,0.06,0.09,0.0,0.09,0.0,0.0,Selected_vix_put_spread_results_threshold_15-16_strike_14.0.xlsx,204.0,
 2025-07-24 18:18:01,2025-08-05,14.0,15.0,11,-134.69,0.0,1.31,1.31,Partial/Cancelled,15.02,1,1,-1.0,0.04,0.06,0.12,0.0,0.12,0.0,0.0,Selected_vix_put_spread_results_threshold_15-16_strike_14.0.xlsx,204.0,
-2025-07-24 19:09:31,2025-08-05,14.0,15.0,11,-134.69,0,1.31,1.31,Partial/Cancelled,15.18,1,1,-1.0,0.04,0.06,0.12,0,0.12,0,0,Selected_vix_put_spread_results_threshold_15-16_strike_14.0.xlsx,204.0
+2025-07-24 19:09:31,2025-08-05,14.0,15.0,11,-134.69,0.0,1.31,1.31,Partial/Cancelled,15.18,1,1,-1.0,0.04,0.06,0.12,0.0,0.12,0.0,0.0,Selected_vix_put_spread_results_threshold_15-16_strike_14.0.xlsx,204.0,
+2025-07-24 20:03:31,2025-08-05,14.0,15.0,11,-134.69,0,1.31,1.31,Partial/Cancelled,15.08,1,1,-1.0,0.04,0.07,0.12,0,0.11,0,0,Selected_vix_put_spread_results_threshold_15-16_strike_14.0.xlsx,204.0
